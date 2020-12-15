@@ -3,4 +3,65 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="nikmati_mom">
+        Nikmati momen bersama kami !
+</string>
+    <string name="create_new_">
+        Create new account >>
+</string>
+    <string name="log_in">
+        Login
+</string>
+    <string name="sign_up">
+
+Sign up
+</string>
+    <string name="sign_up1">
+
+Sign up
+</string>
+
+
+    <string name="password">
+
+Password
+</string>
+    <string name="nama_lengka">
+
+Nama lengkap
+</string>
+    <string name="e_mail_addr">
+
+E-mail address
+</string>
+    <string name="log_in1">
+
+Log in
+</string>
+    <string name="log_in2">
+
+Log in
+</string>
+    <string name="forgot_pass">
+
+Forgot Password ?
+</string>
+    <string name="e_mail_addr1">
+
+E-mail address
+</string>
+    <string name="password1">
+
+Password
+</string>
+
+    <string name="sign_up2">
+
+Sign up
+</string>
+    <string name="log_in3">
+
+Log in
+</string>
 </resources>
