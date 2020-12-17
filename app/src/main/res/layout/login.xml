@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/login_page"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:clipToOutline="true"
-    android:background="@drawable/welacome"
-
-    >
+    android:background="@drawable/welacome">
 
     <View
         android:id="@+id/rectangle_1"
@@ -158,8 +156,8 @@
         android:text="@string/sign_up2"
         android:textAppearance="@style/sign_up2" />
 
-    <View
-        android:id="@+id/rectangle_6"
+    <EditText
+        android:id="@+id/et_email"
         android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
@@ -175,8 +173,8 @@
         android:background="@drawable/rectangle_6"
         android:elevation="4dp" />
 
-    <View
-        android:id="@+id/rectangle_7"
+    <EditText
+        android:id="@+id/et_password"
         android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
@@ -193,7 +191,7 @@
         android:elevation="4dp" />
 
     <Button
-        android:id="@+id/rectangle_2"
+        android:id="@+id/btn_login"
         android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_alignParentLeft="true"
@@ -203,8 +201,22 @@
         android:background="@drawable/rectangle_2"
         android:elevation="6dp"
         android:text="Login"
-        android:textColor="@android:color/white"
-/>
+        android:textColor="@android:color/white" />
 
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/et_password"
+        app:layout_constraintStart_toStartOf="@+id/et_password"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
 
 </RelativeLayout>

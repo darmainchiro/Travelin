@@ -4,7 +4,6 @@
     android:id="@+id/signup_page"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:clipToOutline="true"
     android:background="@drawable/welacome"
     >
 
@@ -29,7 +28,7 @@
 
 
     <Button
-        android:id="@+id/rectangle_2"
+        android:id="@+id/btn_login"
         android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_alignParentLeft="true"
@@ -42,7 +41,7 @@
         android:textColor="@android:color/white" />
 
     <View
-        android:id="@+id/rectangle_7"
+        android:id="@+id/et_password"
         android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
@@ -88,7 +87,7 @@
         android:textAppearance="@style/sign_up1" />
 
     <View
-        android:id="@+id/rectangle_6"
+        android:id="@+id/et_email"
         android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
