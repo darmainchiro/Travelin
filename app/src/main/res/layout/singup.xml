@@ -4,9 +4,7 @@
     android:id="@+id/signup_page"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/welacome"
-    >
-
+    android:background="@drawable/welacome">
 
     <!-- Rectangle 7 -->
 
