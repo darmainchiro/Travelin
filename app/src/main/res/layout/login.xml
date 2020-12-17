@@ -188,7 +188,8 @@
         android:layout_marginRight="68dp"
         android:layout_marginBottom="183dp"
         android:background="@drawable/rectangle_7"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btn_login"
